@@ -1,13 +1,26 @@
-
-banner{width:100%;
+*{ margin:0;
+    padding:0;}
+banner{width:1300px;
     height:600px;
-    position:relative;background-color: aqua;}
-banner img{width:100%;
+    position:relative;
+    background-color: aqua;}
+banner img{width:1300px;
     height:600px;
-    position:absolute;}
+    position:absolute;
+    }
 banner div{background-color:rgba(0,0,0,.5);
-    width:100%;
+    width:1300px;
     height:600px;
     position:absolute;}
-banner form{position:absolute;
-}
+banner form{position:absolute}
+banner form .name,.phone,.email{
+    left:50%;
+    width:504px;
+    height:40px;
+    border:1px solid #808080;}
+banner form  .comment{width:504px;
+    height:110px;
+    border:1px solid #808080;}
+banner form button{width:200;
+    height:40px;
+    border:1px solid #808080;}
