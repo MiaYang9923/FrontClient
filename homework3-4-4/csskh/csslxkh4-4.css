@@ -1,0 +1,47 @@
+*{padding:0;margin:0;}
+banner{width:1300px;
+    height:600px;
+    position:relative;
+    }
+banner img{width:1300px;
+    height:600px;
+    position:absolute;}
+banner div{background-color:rgba(0,0,0,0.1);
+    width:1300px;
+    height:600px;
+    position:absolute;}
+banner form{position:absolute;
+    width:1300px;
+    height:600px;
+    text-align: center;
+    background: none;}
+banner form input,button{background: none;}
+banner form .name,.phone,.email{width:504PX;
+    height:40PX;
+    border:1px solid #808080;}
+banner form .name{position:absolute;
+    top:100px;
+    left:50%;
+    margin-left: -252px;}
+banner form .phone{position:absolute;
+    top:160px;
+    left:50%;
+    margin-left: -252px;}
+banner form .email{position:absolute;
+    top:220px;
+    left:50%;
+    margin-left: -252px;}
+banner form .comment{position:absolute;
+    width:504PX;
+    height:110PX;
+    border:1px solid #808080;
+    top:280px;
+    left:50%;
+    margin-left: -252px;}
+banner form button{position:absolute;
+    width:200PX;
+    height:20PX;
+    border:1px solid #808080;
+    top:410px;
+    left:50%;
+    margin-left: -100px;}
